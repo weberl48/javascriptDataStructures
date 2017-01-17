@@ -1,3 +1,19 @@
+/*
+Constant Time - O(1)
+- adding/removing head
+- adding/removing tail
+
+Linear Time - O(n)
+- searching through linked LinkedList
+- as linked list grows in size the time complexity proportionally increases
+
+Memory Managment Benefits: (Lower Level Languages)
+- linked lists are a good data structure for languages that deal with a pysical memory space
+- data doesnt have to be stored together, the next pointer references the location of the next piece of data.
+
+
+*/
+
 function LinkedList () {
   this.head = null;
   this.tail = null;
