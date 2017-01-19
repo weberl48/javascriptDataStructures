@@ -10,8 +10,6 @@ Linear Time - O(n)
 Memory Managment Benefits: (Lower Level Languages)
 - linked lists are a good data structure for languages that deal with a pysical memory space
 - data doesnt have to be stored together, the next pointer references the location of the next piece of data.
-
-
 */
 
 function LinkedList () {
